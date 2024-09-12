@@ -25,7 +25,7 @@ const Contact = () => {
 
       <div className="social-links">
         <a
-          href="www.linkedin.com/in/prasad-deshpande-a59530267"
+          href="https://www.linkedin.com/in/prasad-deshpande-a59530267"
           className="social-link"
           target="_blank"
         >

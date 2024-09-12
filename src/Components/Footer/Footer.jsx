@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           <div class="footer-social">
             <a
-              href="www.linkedin.com/in/prasad-deshpande-a59530267"
+              href="https://www.linkedin.com/in/prasad-deshpande-a59530267"
               class="social-icon"
               target="_blank"
             >
