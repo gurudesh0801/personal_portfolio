@@ -1,0 +1,99 @@
+/* Base styling for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1c1f24; /* Darker background for a professional look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #ffffff; /* White logo */
+  font-family: "Poppins", sans-serif; /* Modern, professional font */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #64ffda; /* Accent color for hover */
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+  color: #64ffda; /* Subtle hover color */
+  transform: translateY(-2px); /* Adds a professional hover effect */
+}
+
+/* Mobile menu icon styling */
+.mobile-menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.mobile-menu-icon:hover {
+  transform: rotate(90deg);
+}
+
+/* Mobile menu styles */
+.nav-links-mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  background-color: #1c1f24;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  margin: 10px 0;
+}
+
+.nav-item:hover {
+  background-color: rgba(100, 255, 218, 0.2);
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .nav-links-mobile {
+    display: flex;
+    align-items: flex-start;
+  }
+}

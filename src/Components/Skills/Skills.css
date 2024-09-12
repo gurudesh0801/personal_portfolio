@@ -1,0 +1,119 @@
+/* Skills Section */
+.skills-container {
+  background-color: #1e1e24;
+  padding: 80px 20px; /* Adjusted padding for responsiveness */
+  color: #e9ecef;
+  text-align: center;
+}
+
+.skills-header {
+  margin-bottom: 40px; /* Reduced margin for smaller screens */
+}
+
+.skills-title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.skills-subtitle {
+  font-size: 1.2rem;
+  color: #64ffda;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Adjusted min width for better responsiveness */
+  gap: 20px; /* Reduced gap for smaller screens */
+  padding: 0 20px; /* Reduced padding for smaller screens */
+}
+
+/* Skill Card */
+.skill-card {
+  background-color: #2a2a35;
+  border-radius: 10px;
+  padding: 20px; /* Adjusted padding */
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly smaller shadows */
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); /* Adjusted hover shadow */
+}
+
+.skill-category {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+  border-bottom: 2px solid #64ffda;
+  padding-bottom: 8px;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.skill-item {
+  font-size: 1.1rem;
+  background-color: #64ffda;
+  color: #1e1e24;
+  padding: 8px 12px; /* Reduced padding for smaller screens */
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-right: 8px; /* Adjusted margin */
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+  background-color: #52e0c0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-title {
+    font-size: 2.5rem;
+  }
+
+  .skills-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .skill-category {
+    font-size: 1.6rem;
+  }
+
+  .skill-item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-title {
+    font-size: 2.2rem;
+  }
+
+  .skills-subtitle {
+    font-size: 1rem;
+  }
+
+  .skill-category {
+    font-size: 1.5rem;
+  }
+
+  .skill-item {
+    font-size: 0.95rem;
+    padding: 6px 10px; /* Reduced padding for very small screens */
+  }
+}
