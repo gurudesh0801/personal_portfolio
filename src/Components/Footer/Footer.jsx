@@ -24,28 +24,28 @@ const Footer = () => {
           </div>
           <div class="footer-social">
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="www.linkedin.com/in/prasad-deshpande-a59530267"
               class="social-icon"
               target="_blank"
             >
               <i class="fab fa-linkedin"></i>
             </a>
             <a
-              href="https://www.instagram.com/your-profile"
+              href="https://www.instagram.com/guru_deshpande.0801/"
               class="social-icon"
               target="_blank"
             >
               <i class="fab fa-instagram"></i>
             </a>
             <a
-              href="https://www.youtube.com/channel/your-channel"
+              href="https://www.youtube.com/@GuruzCode"
               class="social-icon"
               target="_blank"
             >
               <i class="fab fa-youtube"></i>
             </a>
             <a
-              href="https://x.com/your-profile"
+              href="https://x.com/gurudesh2204"
               class="social-icon"
               target="_blank"
             >

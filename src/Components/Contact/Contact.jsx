@@ -25,34 +25,30 @@ const Contact = () => {
 
       <div className="social-links">
         <a
-          href="https://www.linkedin.com/in/yourprofile"
+          href="www.linkedin.com/in/prasad-deshpande-a59530267"
           className="social-link"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://www.instagram.com/yourprofile"
+          href="https://www.instagram.com/guru_deshpande.0801/"
           className="social-link"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <i className="fab fa-instagram"></i>
         </a>
         <a
-          href="https://www.youtube.com/channel/yourchannel"
+          href="https://www.youtube.com/@GuruzCode"
           className="social-link"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <i className="fab fa-youtube"></i>
         </a>
         <a
-          href="https://x.com/yourprofile"
+          href="https://x.com/gurudesh2204"
           className="social-link"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <i className="fab fa-x"></i>
         </a>
